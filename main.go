@@ -102,8 +102,6 @@ func main() {
 
 }
 
-// ── Helpers ───────────────────────────────────────────────────────────────────
-
 func trimDescription(symmetric bool, lo, hi float64) string {
 	if symmetric {
 		return fmt.Sprintf("symmetric (lo = hi = %.4g)", lo)
